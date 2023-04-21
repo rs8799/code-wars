@@ -1,8 +1,7 @@
 function getCount(str) {
-/*   let vowels = /[a]/;
- */  let special = str.match(/[aeiou]/gi).length
-  console.log(special)
+  let special = (str.match(/[aeiou]/gi) || []).length;
   return special;
 }
+
 
 getCount("abracadabra")
