@@ -1,0 +1,11 @@
+function test(words){
+  let letterFirst = []
+  let splitter = words.split(" ")
+  console.log(splitter)
+  for(let i=0;i<splitter.length;i++){
+    letterFirst.push(splitter[i][0])
+  }
+  return letterFirst
+}
+
+test("words are good")
