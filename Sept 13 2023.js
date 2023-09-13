@@ -1,0 +1,4 @@
+const mystery=()=> 
+ ({sanity: 'Hello'})
+    
+ 
