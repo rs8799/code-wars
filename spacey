@@ -1,0 +1,4 @@
+function spacey(array){
+  let str = '';
+  return array.map(el=>str += el)
+}
